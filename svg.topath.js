@@ -156,7 +156,7 @@
       // convert top paths
       for (var i = children.length - 1; i >= 0; i--)
         if (typeof children[i].toPath === 'function')
-          children[i].toPath(sample, replace)
+          children[i].toPath(replace)
 
       return this
 		}
